@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevForge | Soluciones digitales a medida</title>
+    <meta name="description" content="DevForge crea soluciones web, moviles y cloud para negocios que quieren crecer.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="header-brand">
+        <div class="logo-icon">&lt;/&gt;</div>
+        <div class="brand-name">DEVFORGE</div>
+    </div>
+    <nav class="header-nav">
+        <a href="#contacto">Registro</a>
+        <a href="#catalogo">Catalogo</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<div class="page-layout">
+
+<aside>
+    <nav aria-label="Navegacion de secciones">
+    <p class="aside-title">Navegacion</p>
+    <ul class="aside-nav">
+        <li><a href="#home"><span class="nav-icon">&#9776;</span> Home</a></li>
+        <li><a href="#catalogo"><span class="nav-icon">&#9733;</span> Catalogo</a></li>
+        <li><a href="#especificaciones"><span class="nav-icon">&#9881;</span> Especificaciones</a></li>
+        <li><a href="#promociones"><span class="nav-icon">&#9889;</span> Promociones</a></li>
+        <li><a href="#categorias"><span class="nav-icon">&#9632;</span> Categorias</a></li>
+        <li><a href="#indicadores"><span class="nav-icon">&#9673;</span> Indicadores</a></li>
+        <li><a href="#contacto"><span class="nav-icon">&#9993;</span> Contacto</a></li>
+    </ul>
+    </nav>
+</aside>
+
+<main>
+    <section id="home">
+        <div class="hero">
+            <div class="section-label">Inicio</div>
+            <h1>Construimos el <span class="gradient-text">futuro digital</span> que tu negocio necesita</h1>
+            <p class="slogan">Desarrollamos aplicaciones web, moviles y soluciones de programacion a medida. <em>Desde la idea hasta el deploy</em>, somos tu equipo de desarrollo integral.</p>
+            <div class="hero-actions">
+                <a href="#catalogo" class="btn btn-primary">Explorar Catalogo</a>
+                <a href="#contacto" class="btn btn-outline">Solicitar Presupuesto</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">250+</div>
+                    <div class="stat-label">Proyectos Entregados</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Clientes Satisfechos</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Soporte Tecnico</div>
+                </div>
+            </div>
+            <pre class="hero-visual"><code>
+const dev = {
+  framework: "Next.js",
+  lang: "TypeScript",
+  db: "PostgreSQL",
+  deploy: "Vercel",
+  status: "production"
+};
+console.log("DevForge rocks!");</code></pre>
+        </div>
+    </section>
+
+    <section id="catalogo">
+        <div class="section-label">Productos</div>
+        <h2 class="section-title">Nuestro <span class="highlight">Catalogo</span></h2>
+        <div class="catalog-grid">
+            <article class="product-card">
+                <div class="card-image" style="background: linear-gradient(135deg, #0a1628, #1a2744);">
+                    &#128187;
+                </div>
+                <div class="card-body">
+                    <div class="card-tag">Web App</div>
+                    <h3>Dashboard Analytics Pro</h3>
+                    <p>Panel de control completo con graficos en tiempo real, integracion de APIs y reportes automatizados.</p>
+                    <div class="card-footer">
+                        <span class="card-price">$1.190.000</span>
+                    </div>
+                </div>
+            </article>
+            <article class="product-card">
+                <div class="card-image" style="background: linear-gradient(135deg, #1a0a28, #2a1744);">
+                    &#128241;
+                </div>
+                <div class="card-body">
+                    <div class="card-tag">Movil</div>
+                    <h3>App React Native Starter</h3>
+                    <p>Kit completo para crear apps moviles multiplataforma con React Native y Expo.</p>
+                    <div class="card-footer">
+                        <span class="card-price">$790.000</span>
+                    </div>
+                </div>
+            </article>
+            <article class="product-card">
+                <div class="card-image" style="background: linear-gradient(135deg, #0a2818, #1a4430);">
+                    &#9881;
+                </div>
+                <div class="card-body">
+                    <div class="card-tag">Backend</div>
+                    <h3>API Rest Template</h3>
+                    <p>Arquitectura backend escalable con Node.js, autenticacion JWT y documentacion automatica.</p>
+                    <div class="card-footer">
+                        <span class="card-price">$590.000</span>
+                    </div>
+                </div>
+            </article>
+            <article class="product-card">
+                <div class="card-image" style="background: linear-gradient(135deg, #28180a, #44301a);">
+                    &#9729;
+                </div>
+                <div class="card-body">
+                    <div class="card-tag">Cloud</div>
+                    <h3>Cloud Deployment Suite</h3>
+                    <p>Pipelines de CI/CD, configuracion Docker y despliegue automatizado en la nube.</p>
+                    <div class="card-footer">
+                        <span class="card-price">$1.390.000</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="especificaciones">
+        <div class="section-label">Detalles</div>
+        <h2 class="section-title"><span class="highlight">Especificaciones</span> Tecnicas</h2>
+        <div class="specs-grid">
+            <div class="spec-card">
+                <h3>&#128187; Desarrollo Web</h3>
+                <dl>
+                    <dt>Framework Principal</dt>
+                    <dd>React, Next.js, Vue.js o Angular segun necesidad del proyecto</dd>
+                    <dt>Lenguajes</dt>
+                    <dd>TypeScript, JavaScript ES6+, HTML5, CSS3</dd>
+                    <dt>Base de Datos</dt>
+                    <dd>PostgreSQL, MongoDB, Firebase o MySQL</dd>
+                    <dt>Hospedaje</dt>
+                    <dd>Vercel, AWS, Google Cloud o Azure</dd>
+                </dl>
+            </div>
+            <div class="spec-card">
+                <h3>&#128241; Desarrollo Movil</h3>
+                <dl>
+                    <dt>Framework Principal</dt>
+                    <dd>React Native, Flutter o Swift/Kotlin nativo</dd>
+                    <dt>Plataformas</dt>
+                    <dd>iOS 15+ y Android 10+</dd>
+                    <dt>Estado Global</dt>
+                    <dd>Redux, Zustand o Riverpod</dd>
+                    <dt>Publicacion</dt>
+                    <dd>App Store y Google Play Store incluido</dd>
+                </dl>
+            </div>
+            <div class="spec-card">
+                <h3>&#9881; Backend y APIs</h3>
+                <dl>
+                    <dt>Servidor</dt>
+                    <dd>Node.js con Express o Fastify</dd>
+                    <dt>Autenticacion</dt>
+                    <dd>JWT, OAuth 2.0, SSO y MFA</dd>
+                    <dt>Documentacion</dt>
+                    <dd>Swagger/OpenAPI automatica</dd>
+                    <dt>Testing</dt>
+                    <dd>Jest, Cypress y pruebas de integracion</dd>
+                </dl>
+            </div>
+            <div class="spec-card">
+                <h3>&#9729; DevOps y Cloud</h3>
+                <dl>
+                    <dt>Contenedores</dt>
+                    <dd>Docker y Kubernetes para orquestacion</dd>
+                    <dt>CI/CD</dt>
+                    <dd>GitHub Actions, GitLab CI o Jenkins</dd>
+                    <dt>Monitoreo</dt>
+                    <dd>Datadog, Grafana y alertas automaticas</dd>
+                    <dt>Seguridad</dt>
+                    <dd>SSL, WAF, auditorias OWASP y pentesting</dd>
+                </dl>
+            </div>
+        </div>
+    </section>
+
+    <section id="promociones">
+        <div class="section-label">Ofertas</div>
+        <h2 class="section-title"><span class="highlight">Promociones</span> Especiales</h2>
+        <div class="promo-content">
+            <div class="promo-banner">
+                <h3>SEMANA DEL CODIGO</h3>
+                <p>Obtén un <strong>50% de descuento</strong> en todos los templates de desarrollo web esta semana. No dejes pasar esta oportunidad.</p>
+                <div class="promo-code"><strong>CODIGO: DEVFORGE50</strong></div>
+            </div>
+            <div>
+                <h3 style="font-family: var(--font-display); font-size: 1rem; margin-bottom: 1.25rem;">Top 5 Productos Mas Vendidos</h3>
+                <ol class="top5-list">
+                    <li>
+                        <div class="top5-info">
+                            <div class="top5-name">Dashboard Analytics Pro</div>
+                            <div class="top5-sales">1,240 ventas este mes</div>
+                        </div>
+                        <span class="top5-price">$1.190.000</span>
+                    </li>
+                    <li>
+                        <div class="top5-info">
+                            <div class="top5-name">App React Native Starter</div>
+                            <div class="top5-sales">980 ventas este mes</div>
+                        </div>
+                        <span class="top5-price">$790.000</span>
+                    </li>
+                    <li>
+                        <div class="top5-info">
+                            <div class="top5-name">Cloud Deployment Suite</div>
+                            <div class="top5-sales">875 ventas este mes</div>
+                        </div>
+                        <span class="top5-price">$1.390.000</span>
+                    </li>
+                    <li>
+                        <div class="top5-info">
+                            <div class="top5-name">API Rest Template</div>
+                            <div class="top5-sales">760 ventas este mes</div>
+                        </div>
+                        <span class="top5-price">$590.000</span>
+                    </li>
+                    <li>
+                        <div class="top5-info">
+                            <div class="top5-name">UI Kit Figma Premium</div>
+                            <div class="top5-sales">650 ventas este mes</div>
+                        </div>
+                        <span class="top5-price">$350.000</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <section id="categorias">
+        <div class="section-label">Explorar</div>
+        <h2 class="section-title">Familias de <span class="highlight">Productos</span></h2>
+        <ul class="categories-grid">
+            <li class="category-item">
+                <div class="category-icon">&#127760;</div>
+                <h3>Desarrollo Web</h3>
+                <p>Sitios y aplicaciones web modernas</p>
+            </li>
+            <li class="category-item">
+                <div class="category-icon">&#128241;</div>
+                <h3>Apps Moviles</h3>
+                <p>iOS, Android y multiplataforma</p>
+            </li>
+            <li class="category-item">
+                <div class="category-icon">&#9881;</div>
+                <h3>Backend y APIs</h3>
+                <p>Servidores y servicios REST/GraphQL</p>
+            </li>
+            <li class="category-item">
+                <div class="category-icon">&#9729;</div>
+                <h3>Cloud y DevOps</h3>
+                <p>Infraestructura y despliegue</p>
+            </li>
+            <li class="category-item">
+                <div class="category-icon">&#128202;</div>
+                <h3>Data Science</h3>
+                <p>Analisis y visualizacion de datos</p>
+            </li>
+            <li class="category-item">
+                <div class="category-icon">&#128274;</div>
+                <h3>Ciberseguridad</h3>
+                <p>Auditorias y proteccion</p>
+            </li>
+            <li class="category-item">
+                <div class="category-icon">&#127912;</div>
+                <h3>UI/UX Design</h3>
+                <p>Diseno de interfaces y prototipos</p>
+            </li>
+            <li class="category-item">
+                <div class="category-icon">&#128218;</div>
+                <h3>Formacion</h3>
+                <p>Cursos y mentorias de programacion</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="indicadores">
+        <div class="section-label">Metricas</div>
+        <h2 class="section-title"><span class="highlight">Indicadores</span> de Calidad</h2>
+        <div class="indicators-grid">
+            <div class="indicator-card">
+                <h3>&#128230; Stock de Productos Estrella</h3>
+                <div class="progress-container">
+                    <div class="progress-label">
+                        <span>Dashboard Analytics Pro</span>
+                        <span>73%</span>
+                    </div>
+                    <progress value="73" max="100" aria-label="Stock restante de Dashboard Analytics Pro"></progress>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-label">
+                        <span>App React Native Starter</span>
+                        <span>45%</span>
+                    </div>
+                    <progress value="45" max="100" aria-label="Stock restante de App React Native Starter"></progress>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-label">
+                        <span>Cloud Deployment Suite</span>
+                        <span>89%</span>
+                    </div>
+                    <progress value="89" max="100" aria-label="Stock restante de Cloud Deployment Suite"></progress>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-label">
+                        <span>API Rest Template</span>
+                        <span>31%</span>
+                    </div>
+                    <progress value="31" max="100" aria-label="Stock restante de API Rest Template"></progress>
+                </div>
+            </div>
+            <div class="indicator-card">
+                <h3>&#11088; Satisfaccion de Clientes</h3>
+                <div class="meter-item">
+                    <div class="meter-header">
+                        <span class="label">Calificacion General</span>
+                        <span class="value">4.8 / 5.0</span>
+                    </div>
+                    <meter min="0" max="5" low="2" high="4" optimum="5" value="4.8" aria-label="Calificacion general de clientes: 4.8 de 5"></meter>
+                    <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                </div>
+                <div class="meter-item">
+                    <div class="meter-header">
+                        <span class="label">Calidad del Codigo</span>
+                        <span class="value">4.9 / 5.0</span>
+                    </div>
+                    <meter min="0" max="5" low="2" high="4" optimum="5" value="4.9" aria-label="Calidad del codigo: 4.9 de 5"></meter>
+                </div>
+                <div class="meter-item">
+                    <div class="meter-header">
+                        <span class="label">Soporte Tecnico</span>
+                        <span class="value">4.7 / 5.0</span>
+                    </div>
+                    <meter min="0" max="5" low="2" high="4" optimum="5" value="4.7" aria-label="Soporte tecnico: 4.7 de 5"></meter>
+                </div>
+                <div class="meter-item">
+                    <div class="meter-header">
+                        <span class="label">Tiempo de Entrega</span>
+                        <span class="value">4.6 / 5.0</span>
+                    </div>
+                    <meter min="0" max="5" low="2" high="4" optimum="5" value="4.6" aria-label="Tiempo de entrega: 4.6 de 5"></meter>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <caption>Comparativa de planes de garantia</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Caracteristica</th>
+                        <th scope="col"><span class="plan-badge plan-basic">Basico</span></th>
+                        <th scope="col"><span class="plan-badge plan-pro">Pro</span></th>
+                        <th scope="col"><span class="plan-badge plan-premium">Premium</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Duracion</th>
+                        <td>6 meses</td>
+                        <td>12 meses</td>
+                        <td>24 meses</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Soporte Tecnico</th>
+                        <td>Horario laboral</td>
+                        <td>Lunes a Domingo</td>
+                        <td>24/7 Dedicado</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Actualizaciones</th>
+                        <td>Solo seguridad</td>
+                        <td>Funcionales + Seguridad</td>
+                        <td>Ilimitadas</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Backup</th>
+                        <td>Semanal</td>
+                        <td>Diario</td>
+                        <td>En tiempo real</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Revisiones de Codigo</th>
+                        <td>1 cada 3 meses</td>
+                        <td>1 mensual</td>
+                        <td>Semanales</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Precio</th>
+                        <td>$190.000/mes</td>
+                        <td>$390.000/mes</td>
+                        <td>$790.000/mes</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Todos los precios incluyen IVA. Consulte condiciones para contratos anuales con descuento.</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="section-label">Registro</div>
+        <h2 class="section-title"><span class="highlight">Contacto</span> y Registro</h2>
+        <div class="form-container">
+            <div class="form-info">
+                <h3>Informacion de Contacto</h3>
+                <ul class="contact-methods">
+                    <li><span class="method-icon">&#128205;</span> Carrera 7 # 40-62, Bogota, Cundinamarca</li>
+                    <li><span class="method-icon">&#128222;</span> +57 300 123 4567</li>
+                    <li><span class="method-icon">&#128231;</span> contacto@devforge.co</li>
+                    <li><span class="method-icon">&#128336;</span> Lun - Vie: 9:00 AM - 6:00 PM</li>
+                </ul>
+            </div>
+            <div class="form-wrapper">
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telefono">Telefono</label>
+                                <input type="tel" id="telefono" name="telefono" placeholder="+57 300 123 4567" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electronico</label>
+                            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Detalles del Servicio</legend>
+                        <div class="form-group">
+                            <label for="metodo-pago">Metodo de Pago</label>
+                            <select id="metodo-pago" name="metodo-pago" required>
+                                <option value="" disabled selected>Selecciona un metodo</option>
+                                <option value="tarjeta-credito">Tarjeta de Credito</option>
+                                <option value="tarjeta-debito">Tarjeta de Debito (PSE)</option>
+                                <option value="nequi">Nequi</option>
+                                <option value="daviplata">Daviplata</option>
+                                <option value="efecty">Efecty / Baloto</option>
+                                <option value="transferencia">Transferencia Bancaria</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="instrucciones">Instrucciones Adicionales de Envio</label>
+                            <textarea id="instrucciones" name="instrucciones" placeholder="Indica cualquier detalle relevante para la entrega del proyecto..."></textarea>
+                        </div>
+                    </fieldset>
+                    <button type="submit" class="form-submit">Enviar Registro</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</main>
+</div>
+
+<footer>
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <h3>DEVFORGE</h3>
+            <p>Soluciones de desarrollo web, movil y programacion para empresas y emprendedores en Colombia.</p>
+            <address>
+                &#128205; Calle 85 # 40-62, Oficina 501 • Medellín<br>
+                Colombia
+            </address>
+        </div>
+        <div>
+            <h4 class="footer-heading">Empresa</h4>
+            <ul class="footer-links">
+                <li><a href="#home">Sobre Nosotros</a></li>
+                <li><a href="#indicadores">Garantias</a></li>
+                <li><a href="#promociones">Promociones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="footer-heading">Redes Sociales</h4>
+            <ul class="footer-links">
+                <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 DevForge Colombia. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+</body>
+</html>

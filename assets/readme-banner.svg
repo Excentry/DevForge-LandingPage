@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560" role="img" aria-labelledby="title description">
+  <title id="title">DevForge</title>
+  <desc id="description">Landing de soluciones digitales con estética oscura neon y hacker</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030607"/>
+      <stop offset="0.58" stop-color="#071011"/>
+      <stop offset="1" stop-color="#0a1c1c"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2df8d2"/>
+      <stop offset="1" stop-color="#7dffed"/>
+    </linearGradient>
+    <pattern id="scanlines" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 7.5H8" stroke="#2df8d2" stroke-opacity="0.06"/>
+    </pattern>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#2df8d2" stroke-opacity="0.08"/>
+    </pattern>
+    <filter id="glow" x="-200%" y="-500%" width="500%" height="1100%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="12" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1600" height="560" rx="32"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1600" height="560" fill="url(#background)"/>
+    <rect width="1600" height="560" fill="url(#grid)"/>
+    <rect width="1600" height="560" fill="url(#scanlines)"/>
+    <circle cx="1410" cy="80" r="310" fill="#00d9b5" opacity="0.055"/>
+    <path d="M0 90H1090L1160 20H1600" fill="none" stroke="#2df8d2" stroke-opacity="0.28"/>
+    <path d="M0 500H510L570 440H1600" fill="none" stroke="#2df8d2" stroke-opacity="0.18"/>
+    <g transform="translate(98 94)">
+      <rect width="74" height="74" rx="14" fill="#0d1b1d" stroke="#2df8d2" stroke-width="2"/>
+      <text x="37" y="48" fill="#7dffed" font-family="monospace" font-size="28" font-weight="700" text-anchor="middle">&lt;/&gt;</text>
+    </g>
+    <g transform="translate(98 208)">
+      <text fill="#ecfffb" font-family="Arial, sans-serif" font-size="76" font-weight="900" letter-spacing="7">DEVFORGE</text>
+      <rect y="103" width="548" height="5" rx="2.5" fill="url(#signal)" filter="url(#glow)"/>
+      <text y="162" fill="#b1cec8" font-family="monospace" font-size="22" letter-spacing="3">SOLUCIONES DIGITALES A MEDIDA</text>
+      <text y="213" fill="#71918b" font-family="monospace" font-size="16">WEB  /  MÓVIL  /  BACKEND  /  CLOUD</text>
+    </g>
+    <g transform="translate(930 126)" filter="url(#shadow)">
+      <rect width="520" height="310" rx="22" fill="#050b0c" stroke="#2df8d2" stroke-opacity="0.72" stroke-width="2"/>
+      <path d="M0 62H520" stroke="#2df8d2" stroke-opacity="0.25"/>
+      <circle cx="36" cy="31" r="6" fill="#ff5c6c"/>
+      <circle cx="60" cy="31" r="6" fill="#ffc857"/>
+      <circle cx="84" cy="31" r="6" fill="#2df8d2"/>
+      <text x="118" y="38" fill="#71918b" font-family="monospace" font-size="14">devforge://production</text>
+      <g font-family="monospace" font-size="18">
+        <text x="36" y="112" fill="#71918b">$ initialize_project</text>
+        <text x="36" y="153" fill="#7dffed">stack.ready = true;</text>
+        <text x="36" y="194" fill="#7dffed">ideas.compile();</text>
+        <text x="36" y="235" fill="#7dffed">business.deploy();</text>
+        <text x="36" y="276" fill="#ffc857">status: ONLINE</text>
+      </g>
+      <rect x="296" y="262" width="12" height="20" rx="2" fill="#2df8d2" filter="url(#glow)"/>
+    </g>
+    <g transform="translate(1435 470)">
+      <rect width="74" height="30" rx="8" fill="#ffc857"/>
+      <text x="37" y="20" fill="#030607" font-family="monospace" font-size="12" font-weight="700" text-anchor="middle">ONLINE</text>
+    </g>
+  </g>
+</svg>
